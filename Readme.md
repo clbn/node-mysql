@@ -221,7 +221,7 @@ you can listen to the `connection` event.
 
 ```js
 pool.on('connection', function(err, connection) {
-  connection.query('SET SESSION auto_increment_increment=1')
+  connection.query('SET SESSION auto_increment_increment=1');
 });
 ```
 
